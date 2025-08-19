@@ -1,0 +1,102 @@
+.container {
+    padding: 20px;
+    background-color: #1d2634;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.backButton {
+    background-color: #008000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.backButton:hover {
+    background-color: #006400;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.searchInput {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #263043;
+    color: #ffffff;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #263043;
+}
+
+.table tr:nth-child(even) {
+    background-color: #2e3b4e;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+}
+
+.noRecords {
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.grandTotal {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.datePickerContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.datePicker {
+    background-color: #263043;
+    color: #ffffff;
+    border: 1px solid #263043;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.submitButton {
+    background-color: #008000;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #006400;
+}

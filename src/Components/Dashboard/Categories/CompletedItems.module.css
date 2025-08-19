@@ -1,0 +1,65 @@
+.container {
+    padding: 20px; /* Ensure sufficient padding */
+    background-color: #1d2634; /* Background color */
+    color: #ffffff; /* Text color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.backButton {
+    background-color: #008000; /* Green background */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%; /* Ensure table takes full width */
+    border-collapse: collapse;
+    margin-top: 20px; /* Add spacing above the table */
+}
+
+.table th, .table td {
+    border: 1px solid #ffffff; /* Ensure borders are visible */
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #263043; /* Header background color */
+}
+
+.table tr:nth-child(even) {
+    background-color: #2e3b4e; /* Alternate row background color */
+}
+
+.noRecords {
+    color: #ffffff; /* Text color for "No records" message */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.searchContainer {
+    margin-bottom: 20px;
+}
+
+.searchInput {
+        width: 20%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #263043;
+    color: #ffffff;
+}
+
+.grandTotal {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    color: #ffffff;
+}
